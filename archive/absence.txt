@@ -1,2 +1,0 @@
-The present is a censor. Reverse the following ASCII line, then decode base64.
-l5Wez9Wbl5Wb
