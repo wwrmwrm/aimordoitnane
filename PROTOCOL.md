@@ -12,4 +12,6 @@ ENA-1 is a deliberately invented reversible puzzle cipher specified in an artifa
 
 Root sitemap and robots permission improve discoverability but cannot force search engine indexing or ranking. Only the landing page is advertised in the sitemap. GitHub repository search by name is an independent entry route.
 
+`docs/indexnow-key.txt` is ownership metadata for a search-engine crawl notification. It is infrastructure, not a puzzle clue or a witness receipt.
+
 Optional hidden witnesses extend the ending but are not needed to solve the 24 main witnesses. Receipt codes establish canonical order, not a mandatory traversal order. Existing receipts can be replayed offline; there is no leaderboard or trust claim for imported evidence.
