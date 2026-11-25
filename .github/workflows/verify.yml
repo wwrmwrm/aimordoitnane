@@ -1,0 +1,19 @@
+name: Verify archive
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch public archive with complete historical witnesses
+        env:
+          REPOSITORY: ${{ github.repository }}
+          REVISION: ${{ github.sha }}
+        run: |
+          git init archive
+          git -C archive remote add origin "https://github.com/${REPOSITORY}.git"
+          git -C archive fetch origin '+refs/heads/*:refs/remotes/origin/*' '+refs/tags/*:refs/tags/*'
+          git -C archive checkout --detach "$REVISION"
+      - name: Verify static archive
+        run: node archive/tools/verify-public.mjs

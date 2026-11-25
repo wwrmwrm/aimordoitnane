@@ -1,0 +1,14 @@
+{
+  "id": "ca46b8f5c95935c401b2301a",
+  "code": "M08",
+  "title": "Three incompatible clocks",
+  "prompt": "A single unsigned integer is heard by three clocks. Find it in [0, 1000000000).\nx = 52 (mod 1009)\nx = 614 (mod 1013)\nx = 546 (mod 1019)\nSubmit ordinary decimal, without separators. Their joint period is longer than the entire interval.",
+  "assets": [],
+  "seal": {
+    "salt": "b3625d102af05d3d2f78081a823c99de",
+    "iv": "5c96dd1cd7834e1dcaeff1ea",
+    "ciphertext": "nt6vrACWbqExPnxRzCCYMLXSoUdtzkAdlVGXtYCJQjEuCrXfCAyLZLMIErI0nF/FC0MFFASI1R83I/j3VsWwpJXUwqSFYklHMcXJ0P2ghN+fviB1klTy02forb3Dgb+T5y26vacs4PJo5mi393q/8aQRliEqhfc0b0Wx767P8hoR5mWWlRJ171ydsFVgiIN/ioc+BOmlEe5jT26Im6MT6MW6q2KzAk1KWYspNxchsEM/3gp0p7u9Awkw95BTiDwE40ZJ/TTkdkFmgQKLXLGHFDWN3Qeyr/1JJ8UyUHDuwd1D9ys4sm0IsrfjZdGL2HZuHrAVfQ0XZzASw1i/SpAAMkpRjObxZzdK7kP9UT7g/n1egxoeOuw81lD0sgoXYAsT4GfIWuUad/jkFITQNK1EsrayluKXAJYOMdHGT2wsmSQp1O454uPoCWYpxKY=",
+    "rounds": 180000,
+    "aad": "M08"
+  }
+}

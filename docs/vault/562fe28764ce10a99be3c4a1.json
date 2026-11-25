@@ -1,0 +1,16 @@
+{
+  "id": "562fe28764ce10a99be3c4a1",
+  "code": "M15",
+  "title": "The other parent",
+  "prompt": "Clone all branches and tags. At tag confluence, ignore the first parent.\nFollow the second parent's first-parent chain. Take only messages beginning capsule.\nPut them in ascending capsule index, XOR each hex byte with the repeating ASCII answer of What was removed.\nDecode ASCII. This is constructed archival fiction, not a claim about historical events.\nTags are voices too. One lacuna names an absence.",
+  "assets": [
+    "assets/git-map.txt"
+  ],
+  "seal": {
+    "salt": "c3afff850bd4c6342b3e47d72d7488ed",
+    "iv": "ecd2e2f17102cd92372a375d",
+    "ciphertext": "Bx9DcFn+uA8b36sDmydbNgw0mdVTTx9WGrnio4G6mdNf9SDZQY43RCeYm3bxsjvXhNjNvTHcwY49kePl6mC/AMrwwoDS8f82Xsbk30Aix/6930qj6wExrCGQRzcAlNZQHUEOVc7G+U03bQ3aLFpvL3ICu6Oku4OcdvD5H2gXClf5m4u37ytvbiUpKNwVY0o7ftIqnDeJnoarf4IYQH1lkQdgA99oSYGwby1u/PsiYt49MlW9ewP3xvqZxXMMJr3NQPL0ypZxXyyQ8g9vLWrNleG3jJzcAYJYBZ0vRWdZa5Y3NkLUjQtYrQ0H+V2xwUMja+Avi6Oq+P55ZVg3QdpZaUoCwypbrtAEUd369dd6g2vexxriGy1fLJibIDhIkAMEXXEC7NbYJyBTVM9h79p3VUE+JZr0PIJSAKIZXL9VjUBCwLH8AQ==",
+    "rounds": 180000,
+    "aad": "M15"
+  }
+}

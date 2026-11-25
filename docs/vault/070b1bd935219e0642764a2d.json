@@ -1,0 +1,14 @@
+{
+  "id": "070b1bd935219e0642764a2d",
+  "code": "M12",
+  "title": "Six claims of unity",
+  "prompt": "Six voices insist that contradiction and opposition are the same thing. They are not.\nHere claims have ordinary two-valued Boolean meaning. Solve the conjunction below.\nSubmit A B C D E F as six contiguous binary digits. != is exclusive inequality, == is equivalence.\n\n(A != B) and (C == (A and not D)) and (D == (B or E)) and (E != F) and (F == (A == C)) and (B == (not E)) and A",
+  "assets": [],
+  "seal": {
+    "salt": "d3b46d5e9a2f1fe5bb3d919a36b4cd3f",
+    "iv": "fc1cc1cad735408fc41a00b6",
+    "ciphertext": "YOn6Cqrb0Q1hAfCAdrm57Ktpq7JiemzKUEfRPYml6Lo1n10D6LnEZSimkUYYDwXM0FbeEhl6Hv3wGMptqdBgLbHQDdozjSCkMO5KmlnV+BC68M6cfOXdb3GWH6N7CDhdkL654UlbpACRbWUZFnSJUEsy+3ppZHBWfGL7q/aUMYv4YO0qX/jLamXVhMFfRtqq7NVlm8wjukyG3v8pqqyEJX7PPcOzPqLntVj9k7RmP13d/cobu66xl2UA467nOkSJfuzzkr2Dc+EDbG/X1MfE/m36h+Qo/iMFPoF+WskAEijq0Pblx3euAWqcDuf2KA9tPMTggZu4AV4te8T56A==",
+    "rounds": 180000,
+    "aad": "M12"
+  }
+}

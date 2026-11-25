@@ -1,0 +1,14 @@
+{
+  "id": "fa36d0d7120d8199feeeb8f8",
+  "code": "M18",
+  "title": "A river with a reversible past",
+  "prompt": "A ring of 31 binary cells evolved for exactly 37 synchronous steps under elementary rule 150.\nnext[i]=old[i-1] XOR old[i] XOR old[i+1], indices modulo 31. The leftmost printed bit is index 0.\nFinal state: 0000111001100101011010010111110\nFind the unique original 31-bit state. Preserve leading zeroes. Work over F_2.",
+  "assets": [],
+  "seal": {
+    "salt": "57ca300d510ba0005f2524fef84abbbb",
+    "iv": "d6c9368b78b3b5ce1887cc48",
+    "ciphertext": "GXKxFQFlg6aQfwrooE/8S0Ib+ciqIMesUN5+IpZEQSIIVaLOmuFiJcbWdmEvpbsbNNJAaPVyQOXBq60miQLE27vKaRG/KLmYKoIYbQdrO/lbEYTIIAsoyPw3bEtOCRk8ex29/Ikx4PndcrEqekHjBNPdx/09OMMQLSOCXcy9zIDWq93IAS6qVRPUYpDzOtunKbq6TuBb51SLbJXo9WOiqAE8E81EApuy4or8gZc/z8lJlUm1eDzxacH420K+N0mY1LkXkz+DgdazVgnIALtTkVeFtAFVpKarLnnqPggL3dCX8lSearHFfSD3Xur23UNFAwAu1zFT",
+    "rounds": 180000,
+    "aad": "M18"
+  }
+}

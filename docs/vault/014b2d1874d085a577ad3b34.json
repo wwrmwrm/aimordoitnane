@@ -1,0 +1,14 @@
+{
+  "id": "014b2d1874d085a577ad3b34",
+  "code": "H05",
+  "title": "The permitted crawler",
+  "prompt": "The crawler's public rules contain seven comment lines beginning Witness.\n    Read the first letter of each word immediately following Witness, in file order.\n    The resulting word is a historical name for concealment; it is not an instruction to the crawler.",
+  "assets": [],
+  "seal": {
+    "salt": "9b6a9f92cb9af1d8e6c71a98d87bdaaa",
+    "iv": "183bc5aaa0a5c1c60aed2764",
+    "ciphertext": "w71Kit5+Lmj38/Ji4AHinGQyP80zUKvLx6SxkDIgjLHHmoI1gHU1EmlIer8EC+Sc/dbuTkKCmfewSOcmZnslONg+vSrgJfvYaJ52rZhD0Ciy9Bax+QZaGbwcCCd0UBMlqw411V89B+UKV0nu9y6oU3J7x9BzLEn0xC5ADTsd+OiSyzoQcEM70hewZzMDa2Vb+yMlbTNaKP5S1+tYj0RwBHVMd26Wjyir2yAuaDa7wZlo5tPLTFhrC2j/in3PbkGprivEZy0YdSr3IKHH+4JX82wEX+D7MZQBD/SFIHgRJBjUox+OkOEaAm2u+qlTvVD5iOzbHZdA++cdNuo=",
+    "rounds": 180000,
+    "aad": "H05"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "f6062693d2a74c2c2a18f8bf",
+  "code": "M19",
+  "title": "The small private return",
+  "prompt": "The public exponent is enormous because the private exponent is very small.\nRead the convergents of e/n. For a candidate k/d, ed-1 must be k times a plausible totient.\nValidate the factors with the quadratic discriminant. Decrypt only after the vessel has split.",
+  "assets": [
+    "assets/small-return.json"
+  ],
+  "seal": {
+    "salt": "f81be0e7d7549c50889dff963a2ff443",
+    "iv": "b9c65f1dcde7d157697b4aed",
+    "ciphertext": "soFi3sAW1g/STgXomb7s0m9bR2TiYlO45C/DKZSlMXPAObXE/pQdwuLD/p6W62nvHqeh8pexDf0eXtYlOBe3m90HM0n7Gt0+5hXh00XaGHoO+33HCaAfroRUbUSTSkX8jq6vMNuQkv67AasFiSnUHRmkqf/97g2JZ2tmkU+L0oM5HDcoWjbxZLn6wcdnuFdg4PATup36pw5fouy+KwDv4trrqGk1peedJqCQRQyLQRWHkhvT/9eHjryb5ynzJrBTZZJbxGIJvOeoZfy/UMlNMReZebPO1dBazf2W9OybM19+Do+/EdbRGLOtg4BoMsZ8Wul6aEJu",
+    "rounds": 180000,
+    "aad": "M19"
+  }
+}

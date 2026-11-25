@@ -1,0 +1,14 @@
+{
+  "id": "1f96e0f2e0b6f17df3800ec2",
+  "code": "H08",
+  "title": "The unwritten opposite",
+  "prompt": "The absences do not replace the witnesses.\n    Assemble H01 through H07, then M24, as CODE:RECEIPT lines in that order.\n    LF between lines, no final LF. Submit SHA-256, lowercase hex.\n    Only the author who has also been the seeker can close the loop.",
+  "assets": [],
+  "seal": {
+    "salt": "3d1de62d03281fa8c09fbf4b476e3d25",
+    "iv": "7aa8e92293691cdb33db7c75",
+    "ciphertext": "HKTDrLNsuOzI9q5EzD2k+p0ajia+KjkACYbwrypGCmdBM9mxFS1RpaCyIMQTcE+/sYGKuCu4mFib+JxI876rTR/+P056ruaLEWXBtBxJXlku4+n/3oJTEOtQT2pEffjU1DLRxENwL0s8xBEsmcM8vNEy1aVbVYsAZ750Mck/3Ath0FX6Zb9WmM2QodMFNQKp0FRXIlAd7sA5mhpnpmYU8OjxIUGHOzgmavXtjE19JU/itkNT0vrJanrH3jJ+S2PJpej1TydfDRUuKanbNauTAZgNSn1BncBbBLWRBep5N7QrOEi1G+POf91Rnb2qivhXTH4zD366DyZgsoNlR0m08bQAbEsH/9SMalsclP/90dk6qUT0bXiXY9QRLh7ctiE6Ctpy9MhBDRPuLQbWTWjUCn6s0S2hwm3G2TsSCOBFy17ywGsTHsZPlkz3TkZbLMx6IvNzNrdCe6tXXRDeVBtGNIxvwoQPH0bq6LmnvGqP+2AdRDa0I+jP5IFUHMhciYbZAmgldkAGcvnFaW20bqRoXgp/Ic4eXGtqJgMOdR/rJUlH9xVZRiS92QN2vWyYB6neEmj7hNpiaP7lunzTlG9SIpE3U0Lr7urFVVwXvkdi9cq0+PffUYWVB7t7Ti5Bm3xOv26mPBmcbwUfW75Yruk=",
+    "rounds": 180000,
+    "aad": "H08"
+  }
+}

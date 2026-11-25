@@ -1,0 +1,14 @@
+{
+  "id": "0b8f35fc23fec13009938c01",
+  "code": "M02",
+  "title": "Two mirrors",
+  "prompt": "A mirror exchanges left and right. Another exchanges the ends of the alphabet.\nBoth have touched this word. Undo both, in either order. a and z are opposite.\n\nivkhve",
+  "assets": [],
+  "seal": {
+    "salt": "6444b25c34c0728b057ab439bc121809",
+    "iv": "9a90f085a496523174b686b6",
+    "ciphertext": "0ys2IdLSrvtMvfS3BrYQdg0DW/XF4SObSzR96ZFP5lbeUgDVUiyFtqXWn/5t1d8dwNsC1KVHT22qR/IWlB2IZ6BBjm6kFNZyVMkY9nWaAsksV6FtlrTwPiFI0sQ1cnc6irj7eD/A7gSHPWP2gJjqWtFPeulhWX3cZIcKDNl9Aw4w/lxOZlRiQwxt/fpxSvo5TXtWtySGqOKGg2cfaURiTGZQhdRIMptZ2hup13mwz5Sqzi4Pnew5Z95y+Yw5ysyBb+ECCnMbclne+epDpFSd5mIV0NlSnlVArZbuk4RVnTKcQKRXfGlcDqG8lPEjC7ByMgBsDKjtaceQHPPevAUOtCOZsGx5/6hZ0SdISb9d2mhqKsIeg0IPJkJ86SFXc5vY130ARrfEcsmN9cjCNVKpnJ7RwvN3dplx",
+    "rounds": 180000,
+    "aad": "M02"
+  }
+}

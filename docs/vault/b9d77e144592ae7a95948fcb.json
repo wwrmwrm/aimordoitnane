@@ -1,0 +1,16 @@
+{
+  "id": "b9d77e144592ae7a95948fcb",
+  "code": "M07",
+  "title": "The shared vessel",
+  "prompt": "Two exponents. One modulus. One unpadded plaintext.\nThe exponents are coprime. Their integer linear combination can become one.\nNegative powers mean modular inverses; do not factor the vessel.",
+  "assets": [
+    "assets/modulus.json"
+  ],
+  "seal": {
+    "salt": "9b454455453650c8fdfe3a2c4ae34fef",
+    "iv": "ad7a942f8fd0bd3252618a7d",
+    "ciphertext": "jrO6d/B47LfAoe9s8nNzRbR92ZHFSPlmiLaEzSyMwew9vfT536+Gk4NfXHWWijk8jJzg4wzyBra74MbQZX+PWePUR3Or6q9rcC63C9sRMltuQcQo5A6XQNrzcMaBHf1abotKbGV3hYM3xJ/UXaEezbZ3LDbd+W0aM1Pxjy4bc/BsFvjS+Vyq32T8HlWQOuiVImLVFn1J1jKUgme6JExtSZesFDZ7IrzlwYtC0CWlu9qbWO+VEQzcoSnmVCcB0VOW7sOTjAtW1aG6HYvieZPABBHSUheXP+r5v+8lI5/vK/SeLvymUMoCVAErCeoaiwyGC53ssd9S6LBoazqOpDs+yPOoCBcA5ieBdRd9U1ge3L5s5YgiFbI2D5CHKs2GnpaWb1c5azk4HSvSQxp8E7LeiL18bw3YfRjzxiEV/0rePKlwznc4vH79aLqzILmSFg==",
+    "rounds": 180000,
+    "aad": "M07"
+  }
+}

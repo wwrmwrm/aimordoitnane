@@ -1,0 +1,14 @@
+{
+  "id": "5f452e64bbdf0e29f79a4159",
+  "code": "M04",
+  "title": "What was removed",
+  "prompt": "The current tree insists archive/absence.txt never speaks.\nA file can be absent without being lost. Read its last existing version in this repository's full Git history.\nThe witness itself describes the two operations. A shallow export is insufficient; clone the repository.",
+  "assets": [],
+  "seal": {
+    "salt": "e3f861c22214ca675d3c4ff76e2acc35",
+    "iv": "19cecc5d913289a594251307",
+    "ciphertext": "5klOkV4lL0+Jv9rrDJf/dj0Q2n7bGA3Lz4R5Ubt0D87lgJI9A/xIVKlJuIBuZOO21fNRG3pAEN92Dt9xDNK+faUHX4LddZGacYcTk2NNTu85kc3EKyUWn47Lw2hsPW9jjcUMX5getRiqBbtxhdu1VbyWtoIbZz1WXjfBV1ZjlyGd9Jsd4aihxMGWqEKupl2NhERLX3jwffZn1BNwlx+K8mcgYO5I0UQ4rby2x4CZ1ZyKGRr4wjsF7T/tcvtGCqaYgffPPgPhNm2tpxGIv6vxGFN8edZ3K0QWF5Jn6a7OVPIOIixSYFA+Rk4dUatjovvb0eBNk0sWuHe75HBOwum5W7+yyO/vedquI8y2Rpylpxnw5n7xR4yQVzM8yApguEAJD2c6ReboY1LVaFgsps/nCl8fINSlp+LWnNVvLIDyoqPXVTeNjVcKt1j1ousiL8rj9DJtf9iR7gKuoL15hnVYJOi28WsGZ1JIxIODUZP4j9D88mgK2fabY/MqvsT9F7yPlZcU+sE=",
+    "rounds": 180000,
+    "aad": "M04"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "4ea560201a41ff1c17d36a61",
+  "code": "M21",
+  "title": "Coincidence of opposites",
+  "prompt": "These five lines are original game text, not a quotation attributed to a philosopher.\nIn margins.json every triple locates a letter: line, word, letter, all 1-based.\nRead the coordinates backward if Six claims of unity starts with 0; forward if it starts with 1.\nOnly the direction is borrowed. The text has no dependency on an external edition.",
+  "assets": [
+    "assets/codex.txt",
+    "assets/margins.json"
+  ],
+  "seal": {
+    "salt": "adc2fad46ab84bbafea1e54ee97ee3f9",
+    "iv": "d067b3ef28cc3f5f6c2462fc",
+    "ciphertext": "qqFDPYwWsjJ13Vf6cORVzuCcAy18hFVSzOQgbmoV4AM3JoJkvCdorkYZAYKgiHSS7N6RQULKaX/MphnofYdRx0Hd+iULFgUXrwpuYhaZLJe02bhcUyEv00+vCSl5yESo5tTx+XAG2CTmrHBSrDmcKhWq0I5O0iHS+KFeRmR10KPcoIYPWZQ4yy8p2kUxMVNy28HQqKtjQs10mv2DpQ+MBM1kio5a3YGzKxxfQNt9oY9+w8zE5RDxt07cmSh0FYGJyiOkmnltTbma1a7j6Ptf56ZLOkqbtRl5Rl51rudTo+yQqI0diAGFVyMObrWEApkLun1crz6VzctdpBjKz3PJ74ckmw==",
+    "rounds": 180000,
+    "aad": "M21"
+  }
+}

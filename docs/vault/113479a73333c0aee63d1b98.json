@@ -1,0 +1,16 @@
+{
+  "id": "113479a73333c0aee63d1b98",
+  "code": "M11",
+  "title": "The unreliable witness",
+  "prompt": "Seven shares claim to lie on a quadratic over F_65537. Exactly one share lies.\n    Recover the unique polynomial supported by at least six shares, then submit f(0) as decimal.\n    The witness is corrected by agreement, never by choosing the prettiest constant.",
+  "assets": [
+    "assets/shares.json"
+  ],
+  "seal": {
+    "salt": "3535de94a5851e5223f4dbc6c3d6c52c",
+    "iv": "0d22e2a8284b184c40659975",
+    "ciphertext": "oXs05RIdYd+J9SQs6YM0dhgPUYdF03yrSUFTjOjnKUPFYYR9FP22qMkYURf2JX1k6q6fF9anTo8je9bbnW0yorMSqOBuqKPGYY9QNjD6+721zFJHKPKeHBsPPC4EQs6o2u1EWRTcQXsJ6IUlWTdHOXjLuB8hJ0NZYw2/kPPnE5ss1dcAuMeCH7xQKtQ+XFqhV889bxeBScNW9fDXBCR7lU65gGAj8ea5YBwwlXSv1YbdzwDhTk80n4he1cxbUhF6YaL61/tjOH+tfnm6ymDQMhJFqgeBHPIOQ/XjMwgn0CWPGEmi6hrQJ+GXYzOJS/cb2wEkBgwlFGU4dXfx0VcEOc54EoxoqJt3GGH/6OwmW8jubmBqVlZ9Lhu0/VjZl+CW2acTyybk6PQQvUCa1YQ4d4diBg6+O/e6Zva4TEzeRcd2zVqa6g==",
+    "rounds": 180000,
+    "aad": "M11"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2753c9530510010a0359ec42",
+  "code": "M06",
+  "title": "A key used twice",
+  "prompt": "Two messages shared the same one-time pad. One of them is no longer a secret.\nRestore the other. Hex represents bytes, not letters. Trailing ASCII spaces are not part of the answer.",
+  "assets": [
+    "assets/reuse.json"
+  ],
+  "seal": {
+    "salt": "d84a0a5b5c1cc2aba27e1d207a0ec2f9",
+    "iv": "b21c11fdd42a2e7ed84d414d",
+    "ciphertext": "LqMi3HliZvVNzmzUJd4YFq4v/GzvjmS6TQYpuT3YdYW1sVHF5FZoQnLtbGEbqzyQOWzCXPMFq8c30mnIbms5RX+U+iQQCcaN0cScjPDcCf9W4rUwg8WjlRMHDATnIsXBj5Qi+s/HKjDCjNFCuUk7l+iNa7YPSnLPu4I2s5mxCKBhN+E/s76xDwrYl9+2zBc0w7r3+G6E6RBsDaFG+a1NhWZc8xjg7QMm7nXWij7JAmTcrCcjxHJOuxcEweVsKk8Lm9cXpqbIZWjjJe7Tj6nfAQew2c4r1nZJBs7guafTTnW/Xnb6xRecTzfU/ckHAR0W76ccB9xWPjsWhFYq0tbVGvuLXqeBXKD+ZNY9l05gz1mdnZPUAORqJ6EJe2J6LD2bI5r4fsAp0gLXxyyp1in4abRrT6KxbgvhxRmIh3D86NVNAyzTR0M=",
+    "rounds": 180000,
+    "aad": "M06"
+  }
+}

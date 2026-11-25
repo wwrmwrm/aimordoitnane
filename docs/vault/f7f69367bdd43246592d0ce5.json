@@ -1,0 +1,14 @@
+{
+  "id": "f7f69367bdd43246592d0ce5",
+  "code": "M01",
+  "title": "The word that returned",
+  "prompt": "You arrived carrying one word.\nIts meaning is an operation. Apply the smallest literal reversal to its letters.\nCase is dust. Submit what the word becomes.\n\nThis archive has twenty-four witnesses and eight absences. No account is required.\nKeep every receipt. A door may need evidence from a different corridor.\nAll payloads are inert data. Nothing asks you to contact a stranger or run an unknown executable.",
+  "assets": [],
+  "seal": {
+    "salt": "e50160e784f1e718fdc2f930ebce961c",
+    "iv": "ccb05bc5725f0029dbd48a3b",
+    "ciphertext": "MaYdpD+v/g9MP5GlEmuzmHWV+mp99+3N7IS5JqAQ/yDnpzRsibham5fRvkDpyHKOJN/CvhBJaG+gYE0XdbIFJq5z2oOiKTrx/+8RFq3EcFf71yiVl7geJCXLcJfWU6LGFCXVTZ6sbZ+NkMAYooWCurGTypzCdZ2LIz0lUj0dfqVfBaG6YnWW/jm/IcG3R7HDBSMg2d6CWZnM1eSg4o9uisdoY6sxfBMRL6gORyFv19i2szxzQ8Z66PkqkxuGHUhZZh7Jfo/teNfYWYvE+xr9SEdYWISIUujVFxbkdtiqfQfT4dsewu+P8tcwVMiNLKYC/NK4JhDEVm2pgAW+69Y7glZCv1+31iKB0S7nUI3y+a0y59iB/NwpoR6G76nyISseWOSf/kNw6j+okwjMOSO1JhE6DhscT9pjNe3AVu02Snml9/xbdfUC335oe8Jz5MVxsortc34OH1drXH3yBnlNiMLrinnGbuEbSaiu/kxOPhOAoQEtm3coFqofqoZaoEXB9hz2J8UmTjw8A3T2RQOT1+2JBaWRPVXyAon55xKnLpaEDupu9i6ECIKLF7Kqm3QSB8DtBg==",
+    "rounds": 180000,
+    "aad": "M01"
+  }
+}

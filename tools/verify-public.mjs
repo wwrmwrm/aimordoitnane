@@ -1,0 +1,40 @@
+import {readFile,readdir,stat} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+import assert from 'node:assert/strict';
+import {execFileSync} from 'node:child_process';
+const root=resolve(import.meta.dirname,'..'),site=join(root,'docs');
+const read=p=>readFile(join(site,p));
+const parse=async p=>JSON.parse(await read(p));
+const files=await readdir(join(site,'vault'));
+assert.equal(files.length,32);
+const nodes=await Promise.all(files.map(f=>parse('vault/'+f)));
+assert.equal(new Set(nodes.map(x=>x.code)).size,32);
+for(const n of nodes){
+  assert.match(n.id,/^[a-f0-9]{24}$/);assert.equal(files.includes(n.id+'.json'),true);
+  assert.match(n.code,/^(M(0[1-9]|1\d|2[0-4])|H0[1-8])$/);
+  assert.ok(n.title.length>0 && n.prompt.length>20 && Array.isArray(n.assets));
+  assert.match(n.seal.salt,/^[a-f0-9]{32}$/);assert.match(n.seal.iv,/^[a-f0-9]{24}$/);
+  assert.equal(n.seal.rounds,180000);assert.equal(n.seal.aad,n.code);
+  assert.ok(Buffer.from(n.seal.ciphertext,'base64').length>32);
+  for(const asset of n.assets){assert.match(asset,/^assets\/[a-z0-9.-]+$/);assert.ok((await stat(join(site,asset))).isFile());}
+  assert.deepEqual(Object.keys(n).sort(),['assets','code','id','prompt','seal','title']);
+}
+const html=(await read('index.html')).toString();
+assert.ok(nodes.some(n=>n.id===html.match(/data-entry="([a-f0-9]+)"/)[1] && n.code==='M01'));
+for(const href of ['app.js','style.css','robots.txt','sitemap.xml','.nojekyll'])await stat(join(site,href));
+const css=(await read('style.css')).toString();assert.ok(css.includes('@media(max-width:760px)'));
+assert.ok((await read('robots.txt')).toString().includes('Allow: /'));
+assert.ok(!(await read('robots.txt')).toString().includes('Disallow: /'));
+const ws=await read('assets/emptiness.txt');assert.ok(!ws.includes(13));
+assert.equal(ws.toString().split('\n').filter(Boolean).length,56);
+const png=await read('assets/negative.png');assert.equal(png.subarray(0,8).toString('hex'),'89504e470d0a1a0a');
+const wav=await read('assets/river.wav');assert.equal(wav.subarray(0,4).toString(),'RIFF');assert.equal(wav.subarray(8,12).toString(),'WAVE');
+const git=(...a)=>execFileSync('git',a,{cwd:root,encoding:'utf8'}).trim();
+assert.equal(git('rev-list','--parents','-n','1','confluence^{}').split(' ').length,3);
+assert.equal(git('cat-file','-t','lacuna'),'tag');
+assert.ok(git('log','--all','--format=%s','--','archive/absence.txt').includes('remove the witness'));
+assert.ok(git('show','confluence^2:README.md'));
+const tracked=git('ls-files').split('\n');
+assert.ok(!tracked.some(p=>/private|solutions|build-state|build\.py|solve_verify/i.test(p)));
+execFileSync(process.execPath,['--check',join(site,'app.js')]);
+console.log('PASS: 32 envelopes, unique IDs, assets, cipher format, byte-preserving evidence, entry route, Git archive topology, source syntax and publication hygiene.');

@@ -1,0 +1,17 @@
+{
+  "id": "0bb20ff5f8dcb05299670c56",
+  "code": "M13",
+  "title": "The difference between rivers",
+  "prompt": "Two channels carry the same river in opposite phases around a shared current.\nSubtract right from left in signed 16-bit PCM. Absolute differences above 1000 are ON, below 1000 are OFF.\nOne unit is 240 samples at 8000 Hz. Standard International Morse: mark 1/3 units, within-letter gap 1, between-letter gap 3.\nThere are no word gaps. Decode lowercase ASCII letters.\nThe first 64 right-channel sample low bits also speak, MSB-first, without a header. Their door is recorded beside the wave.",
+  "assets": [
+    "assets/river.wav",
+    "assets/river.record"
+  ],
+  "seal": {
+    "salt": "5a43e1ab8e789d222260b268c0a4a865",
+    "iv": "baf63e056931fd00d9e4df12",
+    "ciphertext": "UJmu1uschdhWJ/R5Ixq5m/EYgY2er/FXRBfJzYPoDDb20DeqQHjR8UI4+4zjP8maxqIGLggQzBTrR2IcPyZ/0cbdGTppPTGd7UEBJ2ILTBQl0kLoxrpP5xIlg2POTzsCqxuCgw5ennfrn+G4lUQVCyfc2Ue4g/0yRVyUrf0gJ+SgVfL4Qt7GTD6dNlfBjbiH8dKXz34AL7pFFYFy5XPOnQMkgjMMaTBRhwxIpmqSZBymDLRUWdnDzItIpAYYnSoAxPC0iveWvz2EfK7UO/EBCyYbyHRWyDUsUPTRw74TuoV+gHkLRLh76CASPW68FWJNxxXOTrpBn8aH",
+    "rounds": 180000,
+    "aad": "M13"
+  }
+}

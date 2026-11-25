@@ -1,0 +1,16 @@
+{
+  "id": "8572a2a64592d116faaed0b7",
+  "code": "H06",
+  "title": "The inverse of the engine",
+  "prompt": "ENA-1 returns. Key=answer(The turning engine), UTF-8.\nCiphertext=d8490d5b.\nThis time the plaintext is four arbitrary bytes, not a word. Submit eight lowercase hex digits.\nThe short final block still reflects. The specification did not grant an exception.",
+  "assets": [
+    "assets/ena-1.txt"
+  ],
+  "seal": {
+    "salt": "a799d05d7d303a9d76aa0191a2454fe3",
+    "iv": "919d0899ef12c382368f302a",
+    "ciphertext": "9Uqc1/wdlnaL9yoU/wCCJRj/QBDxBl9EE/p0s07LksJ9PVmGad+2hMylYnihVs3Yw8xMlYjODhstnlOWku93e5aNhe2+Vq8XoWVAX4smpt+r903CUUAtXuZPZbph950e6L9FMdjGUBbPMs+sNdpX2e/Cfy8VeOK34Ehyq0oe7f6mkH6qjR6+pYUwsZ0kEiG7xo628TfFe3Di2L0r5j0wHdEs5PrgG7GDgqUY28ibnRbNsoUXJZdvgj86q4s44grjhRAaiXvYGSjv3XIVZR9M05uruJkBML0v30SLj9zd+3l69z1ld81fSXzn4v335GwN99FfjO27eyhe/3Q=",
+    "rounds": 180000,
+    "aad": "H06"
+  }
+}

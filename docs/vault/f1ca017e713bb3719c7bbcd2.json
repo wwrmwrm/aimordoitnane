@@ -1,0 +1,14 @@
+{
+  "id": "f1ca017e713bb3719c7bbcd2",
+  "code": "H01",
+  "title": "The interstice",
+  "prompt": "A comment at the beginning survived as vagrefgvpr.\n    Half a Latin alphabet is its own opposite. Decode using ROT13.",
+  "assets": [],
+  "seal": {
+    "salt": "d2ceae492b5a92e6d63007b506896cfc",
+    "iv": "78ff31d17ea68d8c05e203ef",
+    "ciphertext": "PUlHllGXm+fBEN0iE3k1lbmBy54idRtpsfIMztKL9f9pWfRtnXhGjevhZCntsJOk3/aEIvp7QrSFNZWWaN/Bu/ieU0svyYhpJ3ZvE95pcrKMUvC4bU14lyLm4lXpOGkfkXEInut1vPXh+q+K4lFOLFDSW+T5nVLhaFNgOrClq1/SBDJs0n0bNY+hOmxe0jSl/2nD3g+NtWQC4dt7gAt23AUrpbsjPMWPbnKP6n8k98biBvYaPPZ+RM68mefMZ4GA/cBc2nyCaeqwPdHxWkxscgaGWOtV6fgfB170QX0hfA0dwEHM+AOq06ntRAUdDEcGHj+QDbybUZ+QaCc=",
+    "rounds": 180000,
+    "aad": "H01"
+  }
+}

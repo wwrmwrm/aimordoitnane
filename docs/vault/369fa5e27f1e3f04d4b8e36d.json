@@ -1,0 +1,17 @@
+{
+  "id": "369fa5e27f1e3f04d4b8e36d",
+  "code": "M03",
+  "title": "The black square",
+  "prompt": "Darkness still has a least significant part.\nThe clock must arrive before the image can speak: take the decimal answer of Three incompatible clocks as K.\nFlatten the 64 by 64 lossless negative in row-major order. For i=0..79, pixel index=(109*i+(K mod 4096)) mod 4096.\nTake each selected red sample's least significant bit. Form ten bytes, MSB-first.\nXOR those ten bytes with the first ten bytes of SHA-256(ASCII decimal K, no newline).\nThe first two clear bytes are a big-endian byte count; the next bytes are ASCII.\nTransparency remembers a second text: its first 80 low bits have reversed their entire order.\nIts door is hidden in the image's companion record.",
+  "assets": [
+    "assets/negative.png",
+    "assets/negative.record"
+  ],
+  "seal": {
+    "salt": "0d9b2975b1b2c5877d680651d2add970",
+    "iv": "44f1e00cc5cd9496e9a1288f",
+    "ciphertext": "qFGbdsKcWrzMqt76GiknUkHg9KZcuMckR6vQc96P6/59GAG1zbZJ/l50XvKxFoXpXr9UqzahTDcK/orkIA95aLZGxQw4CNWNvPKK6jUV3/UTKxdPIGTz20ibnpyp9bh8gJGLOZ5b6HRiDhmeaLA/Pf8DVSZK2oqCYYyZTGYaLWWhOEsTqcbOfcE/4/Oz3OhValfX7Tqkit7vZMH2iOfOlvgY/7AFwuHy+G21Lqrd8hrvcIp2VbJ62gCmBnSK6ULsK63RghNUCNiv81Ytim87Rg1JGFHx7ycpeoOSzUZB8G+pjn5EEwVInl7ZZA3aMmhvhVuhvUC4GumiTcFrgnzLf9lGTg9CeFc46TieYWXjhnm/IL342zsBClHYfBGKe7nWvv9XG8Sl2+y+pjtpjSS5AKRWXU9PsU+dBw==",
+    "rounds": 180000,
+    "aad": "M03"
+  }
+}

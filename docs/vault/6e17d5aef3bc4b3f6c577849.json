@@ -1,0 +1,16 @@
+{
+  "id": "6e17d5aef3bc4b3f6c577849",
+  "code": "H02",
+  "title": "The transparent witness",
+  "prompt": "The red witness left a second instruction.\n    Read the first 80 alpha-channel low bits of negative.png in row-major order; reverse the entire 80-bit sequence.\n    Its first 16 bits are a big-endian byte count. Decode that many subsequent ASCII bytes.",
+  "assets": [
+    "assets/negative.png"
+  ],
+  "seal": {
+    "salt": "e4a7e34d415f947c65e57ce24549997a",
+    "iv": "9fafed80b05bb24660940808",
+    "ciphertext": "pSlDpmhUtZf3wdKELN8qhXOqjz0OrfH2VQGRDlb+jibyunVQev+EQ+0cxHVTfJX9beGQpoDyI52NDcEvElOAtgGM7srKq/S4emkpIGDbzOWy7GaNBDTRpinHuIzoDYuaiNMRvJvkca+uXco/XRa8urOUkOd3AAcIICXp4Ov2xS7elw30UF0k9UbtcP1GImgxBrF0a7P0vAXawll/aVY/tlhm/tlSSyHAmMd4Dx2XUIZNyqsfx4ptiPXaa3kWxOpZVvgvV6mtXmCynbkHQuEHHAJT/TFL8LIJdjI5PnhrcIRkJDjRaJrFOylUc/LFFwrCwtYdBW7NXQfQP2c=",
+    "rounds": 180000,
+    "aad": "H02"
+  }
+}

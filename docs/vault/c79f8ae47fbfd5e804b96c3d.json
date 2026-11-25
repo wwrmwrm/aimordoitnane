@@ -1,0 +1,14 @@
+{
+  "id": "c79f8ae47fbfd5e804b96c3d",
+  "code": "M17",
+  "title": "A logarithm without a logarithm",
+  "prompt": "2^x = 671432 (mod 1000003).\nThe base 2 generates the multiplicative group. 0 <= x < 1000002.\nSubmit x in decimal. A baby can meet a giant halfway.",
+  "assets": [],
+  "seal": {
+    "salt": "86acf436964348c7cffe19cb97c84018",
+    "iv": "8cc526da541d3db375e0f3a8",
+    "ciphertext": "z4rR1vcJPOg9Ca+x5dj+FSUSEdJDkxqDRO5lfDOelUI5AaHErt5Cp1DZgol0r/jhSi++Q+piB6O0W2dCNEMTxSbx75EWwuGtm60U1cOVxpWhgC7TwZsEoK7ruNtFTxXu1G+5g4c3ww6D5Hjo4tviy/KQcXsaGbQgDwEIIojMHrmt0Q1LLjW2xEQBlRu1abZDd5/Gff58pcl797PkhB+cV6B2MfqrFt8VKNm6r4CuNF4MeuQF33e/p7DCys1d4r5N2DhaXokwXL+1c3UaWch3pKJLZsncTwIbMPGXvzhCIvO873WuEnHGz9O78Q4oIIJK46wSAMGbLZOtAhKl",
+    "rounds": 180000,
+    "aad": "M17"
+  }
+}

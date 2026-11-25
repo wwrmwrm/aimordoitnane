@@ -1,0 +1,17 @@
+{
+  "id": "e0ca72246dc1816905392931",
+  "code": "M10",
+  "title": "A machine running backward",
+  "prompt": "This machine accepts an unknown lowercase ASCII string and produces a known target.\nIts instructions are data, never native code. Reverse the trace from the target to the input.\nHALT is a limit to execution, not to reading. The byte after UNREACHABLE and NUL begins an ASCII85 absence (RFC 1924 / Python b85).",
+  "assets": [
+    "assets/return.evm",
+    "assets/vm.json"
+  ],
+  "seal": {
+    "salt": "6cc78085d540d268ef7864bc50d68bcc",
+    "iv": "b2582f4eb59edf00b8aa3fb0",
+    "ciphertext": "Ja2SdbIEJA8UVr2aYgreXj4aJyah035NBEWpeQ3t9bK3oGsCA0ozd8ZF1vENvdLXPMLB3lnkZEiDwEBdQvP5ZLQnEkCieimycS/Drh9KTCRQEad1qTOnowf2WOK4u6K9gRe6tFE6ing/zYDSKb2repcqkv18tQlhad55H9Zraw7In8/5h4qj+APOCypHUJmuNj2q8VraN/caSQXP1bH8B4OjLt9v2/uje9uH9RidYexQ7dr0tSbThINim+mwjabKGxJ3HoNodaizMQi6RqdI9Pw924YGU9vhgT131HvkBD79dWaNIaZE9p3QqxRr10cQCkGJHphvtAFin47Js8FuXDLiz+il7oH2IgLdLHvoc7vsvFHCq8WiXyeHa1Cy1nFTlbq/R9Zeb2NqLqbVawoWzpapvZBbOahy6EdyhOk/UvIxsA==",
+    "rounds": 180000,
+    "aad": "M10"
+  }
+}

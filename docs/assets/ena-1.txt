@@ -1,0 +1,9 @@
+ENA-1 / a puzzle cipher, not a security primitive
+UTF-8 key K. k=SHA-256(K) as 32 bytes. state=k[0].
+Before encryption reverse each successive block of 7 plaintext bytes independently (including a short final block).
+For zero-based i, q=k[i mod 32], n=1+(i mod 7).
+v=((255 - plaintext_byte - state) mod 256) XOR q.
+For even i, c=ROL8(v,n); for odd i, c=ROR8(v,n).
+state=(state+c+q+i) mod 256, using ciphertext c even during decryption.
+Ciphertext is hex. Decryption must undo rotations, XOR, subtraction, and finally block reflection.
+Known vector key=mirror, plaintext hex=000102030405060708090a0b0c0d0e0f, ciphertext hex=f38449cb99332d2885e01ba4422a63af

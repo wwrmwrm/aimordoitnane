@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Sitemap: https://wwrmwrm.github.io/aimordoitnane/sitemap.xml
+# Witness Nothing
+# Witness Opposes
+# Witness Its
+# Witness Naming
+# Witness During
+# Witness Exposure
+# Witness Xenial
+# An absent door: /aimordoitnane/#/w/014b2d1874d085a577ad3b34

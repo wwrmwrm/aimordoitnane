@@ -1,0 +1,12 @@
+{
+  "target": "4536c4cc89c63114532a5b",
+  "format": "byte 0 = input byte count; then triples (opcode,a,b); op 255 halts before trailing data",
+  "operations": {
+    "1": "x[a] ^= b",
+    "2": "x[a] = ROL8(x[a],b)",
+    "3": "x[a] = (x[a]+b) mod 256",
+    "4": "swap x[a], x[b]",
+    "255": "halt"
+  },
+  "rule": "input is lowercase ASCII; every instruction is invertible"
+}

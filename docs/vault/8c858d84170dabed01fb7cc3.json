@@ -1,0 +1,16 @@
+{
+  "id": "8c858d84170dabed01fb7cc3",
+  "code": "M16",
+  "title": "The shortest descent",
+  "prompt": "Travel from S to T in exactly 1099511627783 directed edge traversals. Vertices and edges may be revisited.\n    Find the minimum total cost and count distinct minimum-cost edge sequences, modulo 1000000007.\n    Negative cycles are allowed: the exact traversal count makes the question finite.\n    Submit cost:count, ordinary signed decimal cost and unsigned modular count, with no spaces.\n    A trillion steps can be folded by squaring. Equal minima add their witnesses; consecutive journeys multiply them.",
+  "assets": [
+    "assets/graph.json"
+  ],
+  "seal": {
+    "salt": "9cc95f85bce9e5f40fe713ab06327a68",
+    "iv": "85061e9f4a2bf482ab280a72",
+    "ciphertext": "HrVNRDPOIJF9DK8X6mUtFksa401pqwIAf+qN/joXd4uIM9oQK+A0khT4buIRRWSIwi7QOTfqf+RMmV+aK9WEF0vf1kPCflDo8ck4TiYmSb8QTjaNqg/8lJh7lyetC+C1Yxr70Z5pLGnjoc+CAY5sK6aPOw93UAJAwzRnMUlry5WOJhB1Mv+UofWPioZcFdZRT2GlxoIkImgLRo/4w9DtsEFiiInAPurHGYPyIG8W24vri1Ag1Oh6w6sYHYnLDyDrZOdSTpFIW8FuBU58fvU2rUTh1CwkS3vqcJQJXhH51w9PbxbutCP5+27XMb/nXd6h9RRfu84y0AMgy0uuXSYZ4SjELAz6nZXPVNvHyb6DDT1+vjtg9U5L5El1CweS+TiVSjmUzL0b5YPYRrNLmKYayJkin2zxe4yt4HQTWKve",
+    "rounds": 180000,
+    "aad": "M16"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "b5ed13598900f78122f05997",
+  "code": "H07",
+  "title": "After the halt",
+  "prompt": "The virtual machine stops before the archive does.\n    In return.evm, find ASCII UNREACHABLE followed by NUL. Decode all bytes after that NUL as Python/RFC1924 base85.\n    Submit the recovered lowercase ASCII word.",
+  "assets": [
+    "assets/return.evm"
+  ],
+  "seal": {
+    "salt": "11e7c3d0ec7e8aaf33c8776840179d90",
+    "iv": "cbd19c2c278864674e9f90cc",
+    "ciphertext": "b9M4yMHFdhtSmYEDzIzmgKL64JbHWFI7gfQ8Fecgm32+klAWTbv9OqbKTNxwLPFspf/HCs37eYEACNCpXGZsa6//sP/RAEqH34YwBJCKV5Rz78DCC3hbe4UVlJpo5BvpuI+c7DwYxnwu2E4JG1R1UJBB7wOXMiqxBgdfSyfDGWRYZjVIdK/eqK+RuJW7EpP5LBEFftT+6efapdyQxScUmJxx7YX//sU/tmyBmrO5zVZ6stmKHh1b9Wvz30AZCq6d3FwbUuz7ieRkjTVPvdoEn8tAFJGDzOd9BDSD5rr6svntYbGmN7x4+sJ4LH5pMc1r8BsJw9mzPxK/3m8=",
+    "rounds": 180000,
+    "aad": "H07"
+  }
+}

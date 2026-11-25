@@ -1,0 +1,17 @@
+{
+  "id": "b986c13fbcef6d4736c18d31",
+  "code": "M05",
+  "title": "The two alphabets",
+  "prompt": "The letters are only a carrier. Their case is the message.\nlower=0, UPPER=1. Read groups of five from the left. Use the full 26-letter alphabet, a=00000.\nDo not collapse i/j or u/v. This text is a primer, not the final answer.\nafter-case.txt is Vigenere with a=0, encryption C=P+K mod 26. Its key begins with the primer, then continues with the plaintext itself.\nThe recovered lowercase plaintext is the answer. The two alphabets are typography and number.",
+  "assets": [
+    "assets/case.txt",
+    "assets/after-case.txt"
+  ],
+  "seal": {
+    "salt": "9b197f1ebd448a2fb79a1e5d466d4221",
+    "iv": "568c2c02c01f3a52f0b1c355",
+    "ciphertext": "VI6KIllLKBFVEY8lUq0uVlp/SXoh4EgFG0OKSxkPu1/1+xM1pEACGCZlE6d61FTTeHDm102eUqwDqhEBvXeKhgt/vLPBHNSbpeC4NTCcqoRTi0g2FrdHgg+la0yhS5So8bH7p0PwXX2UOfvDRPOljwQWz+ikNo6av+GJoWIwjzivG868P3duBexe+LMi0TtaG9X1ixQtkwcvi4Zf9OpV7LoY8ZhFOsS9grRdbH+pZ4m0rZXJD/B4E3Ni+q2Sybc5vfMeIyX65QLP7KYP/Qom3ZfhHUuTcOACRw2zDVJUcw5Rhiz0uA8A0W7FkfisVQNMQkyNHWhU+dycirVMpJwyy9NmsGK8FFUvnc1xJ/i+yQLXrJ/SBo6TcxbwAXdkzUjlYmCI7hcwFwsC+9gvVVGOIAVtEtrF8cXwFIV2HfyX9gBas/9Nbdw=",
+    "rounds": 180000,
+    "aad": "M05"
+  }
+}

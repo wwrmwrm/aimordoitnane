@@ -1,0 +1,14 @@
+{
+  "id": "eb952fb8e713730f69d3dc0b",
+  "code": "H04",
+  "title": "The annotated absence",
+  "prompt": "A Git tag is not always merely a name.\n    Read the annotation on tag lacuna in the full repository. RFC4648 base32 gives its absent noun.",
+  "assets": [],
+  "seal": {
+    "salt": "6fcf3bcb8bc97985f505be9f1027acc0",
+    "iv": "a21886953bc57343e92b0b17",
+    "ciphertext": "/GBtq38HMZL9zz0w8pDAzHrL8eC4mmwBgKytQ1mqwLbxksNROCshN/JeKxLMJdZNHkv3X0FSuJ2S7dX9Jda7bNnirUqQpMrLyyna1Kmt505zX1RqekumU8y72Ky87HMX+PDis2/rx9e4a6L0AOMIhmsmvpqd3BbKS5r9cA5qmue1RbcyJOpWjq0BHoQdGD7/om3svUIs3adiK25QEUsec9g7dZGUgpWE/Ei8tyrlPSuUCYVUT402D1VvrfqKH65y2ob7LiVxUMNNQ90bjz2NDSk7LSW/B6r7vrPRiuKbXw2Kuh7gmRnrfjsjY2tnVmEfKXNw8eBcla+2bhc=",
+    "rounds": 180000,
+    "aad": "H04"
+  }
+}

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png -text
+*.wav -text
+*.evm -text
+docs/assets/emptiness.txt -text

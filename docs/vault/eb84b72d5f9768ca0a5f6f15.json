@@ -1,0 +1,14 @@
+{
+  "id": "eb84b72d5f9768ca0a5f6f15",
+  "code": "M20",
+  "title": "Agreement of the clocks",
+  "prompt": "Three corridors have kept numbers rather than words.\n    In order: Three incompatible clocks, The unreliable witness, A logarithm without a logarithm.\n    Write their canonical unsigned decimals separated by literal |, with no whitespace or final newline.\n    Submit SHA-256 of the ASCII string as 64 lowercase hex digits.\n    Numbers can corroborate one another without becoming the same number.",
+  "assets": [],
+  "seal": {
+    "salt": "78c4d4c6fd4eb906d598aa26abba0e4c",
+    "iv": "8f586ccf5836076f32f0bb43",
+    "ciphertext": "OIaw3JzW9qqW9Y4FeCrTqeZzX56iecCihz+WvVuM2Ix3FEjwBz4bYYPDsWFcSLHqK2RPFbqREIAowOV2EWPKiMWFvnZTKd7rKnl+SHSDDZDHxH8yND6FEShwOogybj7jVuOP3NnjWB3MirbCr1LZgptvTTjbcubS5q4DhGF87rAm9trDciyhCmqi9Wme5oLHeKwMv7bJcMEUBPRqIyv6k0+XKJC9lUyAqPyU7a++faRUXkZiS2NE/Ctoc6Xzhq8kLQFXx/DtCzW3E63HSUXaYZXe0vAH61RGkSlk/cizgAS1d/lHhQ6EVYlvuGrnS5lTc1mAqkbX2pYX4EYEXmug2JjSQQ==",
+    "rounds": 180000,
+    "aad": "M20"
+  }
+}

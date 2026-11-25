@@ -1,0 +1,16 @@
+{
+  "id": "675e32cd0398f92b514fc582",
+  "code": "M23",
+  "title": "The second ending",
+  "prompt": "YOU HAVE WON.\n    The enclosed page has a different opinion when it leaves the screen.\n    It does not need a printer. Its rules are visible to inspection.\n    Submit the sentence that paper reveals, in lowercase, separated by single spaces.",
+  "assets": [
+    "assets/completion.html"
+  ],
+  "seal": {
+    "salt": "6a2b5cc46fa6a3fa85a5025749ae4c86",
+    "iv": "a640772dc8ac0d4e5712c2d1",
+    "ciphertext": "kgt+YyNrL7MUNcH+i4uekrFFCfMnjE8DVXszYvQcIulKr157Nn3lL7VColTOi1yuiVBHuFaVZNRS6dZsM/BvpwcP+w5hjegyxbFB29srt8w58MzIbCl951FU5ojsOdeRh8vBsQyF8/99KGIOSOrhMR23+P2Mg06w78Tb/yrMDcn38xtjOhnxnRX2Fx7XMNwGOzQelcOP4aZo0WqP/cURoOs/NAIP5HuKLIxBD22Q8cCRXQOpmCd7b5wygffc4DZuA8lTlgw8trERgNLLlX4JX0re2vcmLwVsykYjoLuj589frabSD06od3HSo2A72ADeY4Gx8tMzfdYk4kbyHPTR77JPCg==",
+    "rounds": 180000,
+    "aad": "M23"
+  }
+}

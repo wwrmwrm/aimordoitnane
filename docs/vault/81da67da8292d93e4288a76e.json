@@ -1,0 +1,16 @@
+{
+  "id": "81da67da8292d93e4288a76e",
+  "code": "H03",
+  "title": "The antiphon",
+  "prompt": "The river carries an absence under its right bank.\n    Read the first 64 right-channel signed PCM samples of river.wav, take bit 0, group MSB-first into ASCII.",
+  "assets": [
+    "assets/river.wav"
+  ],
+  "seal": {
+    "salt": "5b00d518247c85d5205e5c1506e3a54c",
+    "iv": "44629165a014294896ab1344",
+    "ciphertext": "Ze+jr5/mZvKvNdh5A5JvlDBox0IeRgS77hq5fzZLxPYJAN6I7kYV4lYKD/YYceej5Nqny2CIMm/vVoOsh/IkikTWdMMwKprHdoJWucfrjuwr/zUOvqIz3/11v6FRG7xsnbvNlLgP0sl4Yz6tA3GDmmqeU9MBOIqOH3pjQ34Z8HakXGTb3lnLXjYRALmZF5GtEYAlr7VP4KvBzT4Ljb6Qo7edjmyCszH7sVNuijeEX8Kn+EzXM8csuB8o1NTpE6IXvXVRh/d6/OBw1O55kOKfX+h5Jclvt+xDbv31rmWKwBDxnRpxOfuu6Dhm5DVggIh8kaeVxi08HH7jDUE=",
+    "rounds": 180000,
+    "aad": "H03"
+  }
+}

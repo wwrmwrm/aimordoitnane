@@ -1,0 +1,14 @@
+{
+  "id": "a47c56bc815d610f2016722f",
+  "code": "M24",
+  "title": "The witness becomes the writer",
+  "prompt": "No single branch is the path. Every witness must return.\n    Assemble the receipts of M01 through M23, in numeric order, as lines CODE:RECEIPT.\n    Codes are uppercase, receipts lowercase hex. Use LF between lines and no LF at the end.\n    Submit SHA-256 of these UTF-8 bytes, 64 lowercase hex digits.\n    The ledger can export receipts; it cannot decide what they mean.",
+  "assets": [],
+  "seal": {
+    "salt": "bd18ebddc4fa4678e4abca9640293348",
+    "iv": "d053e3083bdce853f3c824a4",
+    "ciphertext": "jwMaQ0Oxt2Z+tDhyKXBaJi8Ap74kTFxFf63hKz/qfJmiWiJHg9HjgluGQcX8DG6Yxs0J5JjcNpq8eVuSDacA+cLtjhtuOJ7GwQntMtXugkqUG80oqR1ta5retwyIbGCChJ1mKckAiEeNRkpqlGuRrT5OcIv0gnAypUZb0Go+8nKlw32OJJgYwWpHRdkcA3iPBbc6zsBiaxeO5rt1xJVU2i9Ga5dS/6FpiQ39KHTBoIvIuvOCd5zwf77JMGmWUV1y3iavabpjsQQG7MLwaEly75MpZkpyBok3/6O9fLgN7ShANQKqoJBNUR5Ri8qamT0ebjUi3nhMSYeTMOg/sohK0ylTk1PkNdRJcD7N05FbTRJrIYCRAh3zFP8RNGeAFTSWEN6J65n835AJimphsTHvQ9UU7BZpc+72UGTOqBt4EuPH10IDKtnXA28SfNd+S63bGTnn+VoK/uS9PO9xrY8q2KgyQ+as94hybsG+zHwbhRs1T+JXOFxOjiZDV/RJOYQqAoGhTQHFTfXGdkM/4sOwi1OXh79A3txJp02S4mSjs8N4D4/bVo55uP3v8+Rm31W++OF9wJ4cG/HmoNw6dzalBIN9BO5FuKQ8WxZI6v/KFVO1KBWmou5YoOrTWWiDBNa19Gq09Qc2h6NTotMCDkfyJ5UkTr4AvNddqvew3Bw+Tlhyt5iAjNyfPqRiRAxEOu3/qsksumAIuLqbs/INYdRJcmzK8otQl9dLq0FyFC/SLynNugoQ9CEAkEJXutxO66tib2q1tH57ReLJAj7cZ0rfno6qbomig1zJ6iLukPLTawtl/t4tFM6JSDnOmb4Q6fk/+FoKQISZBRT2QRzEWIUxTFVWKnBHLM3+75nEAXBdj/XY6cc7ag0MipMU56+s3m+DIN2v0XkEa67tWGQoc4W8BjVQBA05woaCXSnaEG7zGcGdnGrm",
+    "rounds": 180000,
+    "aad": "M24"
+  }
+}

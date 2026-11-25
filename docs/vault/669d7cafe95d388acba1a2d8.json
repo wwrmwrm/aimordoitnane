@@ -1,0 +1,16 @@
+{
+  "id": "669d7cafe95d388acba1a2d8",
+  "code": "M14",
+  "title": "What the line leaves behind",
+  "prompt": "Each line ends in exactly one meaningful invisible character, immediately before LF.\nSpace=0; tab=1. Ignore every other character. Read in file order, MSB-first, eight bits per ASCII byte.\nUse the downloaded bytes; copying from a rendered page may destroy what matters.",
+  "assets": [
+    "assets/emptiness.txt"
+  ],
+  "seal": {
+    "salt": "8771e2805db82582577ee829ac4ab4fb",
+    "iv": "d423a91b5cc2872feac1274a",
+    "ciphertext": "Z1xLLQQKvf1kLypm+lgOwo9UcnG8wf3QDjdv2vyXkjxEPhcaftzcpsTjEpIv5qAIwVbb9BcDtuaC/aRVKdqhGFrQO1YNXAtDMKNoF0Ps2KJgAi0CxGbAtV9bPnrwP/qk/8I4BoTlcnSuWeCF83jGp+xNRka0aNEBYRuIxBYmUcSotgcqevDxrrJp5NlT3cMmMxBJfylmJEBv2KWubMmzAUGDeVTwJlA4CAexMkjNKB1Yw76buIeMKQJFoBi9hqyWL61u0b5GEOhiuU3siMv6GPJh/Yf47N+hjPvlu+x93qaMK9Q80EHPdVIpDa2fFy137Zjddt7DZqugcBIGMQ==",
+    "rounds": 180000,
+    "aad": "M14"
+  }
+}

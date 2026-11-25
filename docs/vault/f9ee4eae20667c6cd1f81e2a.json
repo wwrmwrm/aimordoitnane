@@ -1,0 +1,14 @@
+{
+  "id": "f9ee4eae20667c6cd1f81e2a",
+  "code": "M22",
+  "title": "The first ending",
+  "prompt": "THE END\n\nI have closed every door.\nNothing follows this sentence.\nVictory is a room without a window.\nEvery witness agrees that you may rest.\nReturn is impossible.\nThere is nothing in the margins.\n\nA body may lie. Its left margin must testify, from top to bottom, after THE END.",
+  "assets": [],
+  "seal": {
+    "salt": "1f53b036778cce21629226e43303b203",
+    "iv": "b31d19b2b9c11e48dfaaabd7",
+    "ciphertext": "bz7tkwm0+lz3WL5dwuJMn7beV35cs7j5wLnlT8/aUqaZxTCIew4YSA19H5ZU3zIc+DrjFa75DPchyvEZf/Avugr/edsREw8546JCTv93fC9Yx1p9xc7DzF3fRVaKAlcPGk20R7U1K3fO9dfdfPpHjnmOr3jxomWcnb6ZYFQjTxnr8mdB2PIIWyl0FOoagq4C4+pEC3ku9eKBoerHa8bj1AOgg+FWWnsqIbgOzzU8ycJEdjFTJE5giufpnerxvvXVOeM/fIX5f4L8BaGuzPUv465XgUvRY7qKVoSi55w2BXhtWqJSj1rw6zMGPT47fwTpPI9ugA0mIlQECx39ko0fhX0+aQ==",
+    "rounds": 180000,
+    "aad": "M22"
+  }
+}

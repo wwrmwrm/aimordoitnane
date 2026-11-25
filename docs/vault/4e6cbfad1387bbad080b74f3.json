@@ -1,0 +1,16 @@
+{
+  "id": "4e6cbfad1387bbad080b74f3",
+  "code": "M09",
+  "title": "The turning engine",
+  "prompt": "ENA-1 was built to make direction betray intuition. Its full specification and a test vector survive.\nKey = answer(Two mirrors) + ':' + answer(The black square), all lowercase ASCII.\nDecode this ciphertext to ASCII: dccfb7678d9f1f71ccc7\nAn implementation must agree with the vector before it is believed.",
+  "assets": [
+    "assets/ena-1.txt"
+  ],
+  "seal": {
+    "salt": "a518dd0d30ca9ed75fd27129d4c1c560",
+    "iv": "a70c19f32e5734dc72955a2f",
+    "ciphertext": "R75BlXykwzgQ8hYOR5+s6q4koPxkEc0F/aMBGkjJT9KgXwXaQ8LXgQAEUnrnYKVztH/omlT/gnsIhwM8mwK+qfpl7bDMxvGqjuToJvglQLbjYvuSzKsmCDKINt9sMWTTUQ122v3rO9BG3MyRY8+QCBWHWWhKyN1/iFZLCnhxXIgJ2NCt9SgxuskACPB+GywV6GhtJttOAzvjY0z7qG2TjJkhYYIVCN+JjM278hIcGYn3RPyiUdkor4xEs4vNP1c4etdgD18rxwrixSBV9aJI0eshBL9LYy1xGeMOtRBAVJ+BSRbdnWg6nD3zrChTfPRdVNG40i/J3HVwMkNLbKc22yLnV3/QIXZehLoGQmr7W+1qG7+vqaokA+1xVoLKVaFvIYlNzBL7YO1TbQYmgi/iXudLJzhn1+fhXwJ+cki4bTuELWA=",
+    "rounds": 180000,
+    "aad": "M09"
+  }
+}
